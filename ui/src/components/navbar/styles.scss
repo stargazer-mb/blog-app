@@ -1,0 +1,43 @@
+.navbarRoot {
+  height: 12vh;
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    max-width: 1024px;
+    flex-direction: row;
+
+    .buttons {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      gap: 25px;
+
+      * {
+        text-decoration: none;
+        color: white;
+      }
+
+      .write {
+        background-color: coral;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+          background-color: inherit;
+          border: 1px solid coral;
+        }
+      }
+    }
+  }
+}

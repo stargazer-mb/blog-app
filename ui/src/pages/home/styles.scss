@@ -1,0 +1,23 @@
+.homeRoot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: coral;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 1024px;
+    background-color: crimson;
+
+    .postContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+    }
+  }
+}
